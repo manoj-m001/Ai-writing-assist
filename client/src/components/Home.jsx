@@ -3,23 +3,36 @@ import { FaPencilAlt, FaSpellCheck, FaSyncAlt } from "react-icons/fa";
 import ai from "../images/ai.png";
 import { Link } from "react-router-dom";
 import { usePrivy } from "@privy-io/react-auth";
-
+import SplitText from "./SplitText.jsx";
 const Home = () => {
   const { login, ready, authenticated } = usePrivy();
 
+  const handleAnimationComplete = () => {
+    console.log("All letters have animated!");
+  };
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20 px-6">
           <div className="container mx-auto flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-10 md:mb-0">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Elevate Your Writing with AI
-              </h2>
-              <p className="text-xl mb-8">
-                Unleash the power of artificial intelligence to perfect your
-                grammar, eliminate spelling errors, and transform your writing
-                style.
+            <div className="md:w-1/2 mb-12 md:mb-0">
+              
+              <SplitText
+                text="Elevate Your Writing with AI Writing Assistant"
+                className="text-6xl font-semibold text-center"
+                delay={100}
+                duration={0.6}
+                ease="power3.out"
+                splitType="chars"
+                from={{ opacity: 0, y: 40 }}
+                to={{ opacity: 1, y: 0 }}
+                threshold={0.1}
+                rootMargin="-100px"
+                textAlign="left"
+                onLetterAnimationComplete={handleAnimationComplete}
+              />
+              <p className="text-xl mb-9">
+                
               </p>
               {authenticated ? (
                 <Link

@@ -2,10 +2,12 @@ import React from "react";
 import { FaPencilAlt, FaMagic, FaRobot, FaChartLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { usePrivy } from "@privy-io/react-auth";
- 
+ import SplitText from "./SplitText.jsx";
 const About = () => {
    const { login, ready, authenticated } = usePrivy();
-
+const handleAnimationComplete = () => {
+    console.log("All letters have animated!");
+  };
   return (
     <div className="container mx-auto px-4 py-12 bg-gray-100 min-h-screen">
       <div className="max-w-4xl mx-auto">
@@ -55,9 +57,21 @@ const About = () => {
         </div>
 
         <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to Transform Your Writing?
-          </h2>
+          
+          <SplitText
+                text="Ready to Transform Your Writing?"
+                 className="text-3xl font-bold mb-4"
+                delay={100}
+                duration={0.6}
+                ease="power3.out"
+                splitType="chars"
+                from={{ opacity: 0, y: 40 }}
+                to={{ opacity: 1, y: 0 }}
+                threshold={0.1}
+                rootMargin="-100px"
+                textAlign="left"
+                onLetterAnimationComplete={handleAnimationComplete}
+              />
           <p className="text-xl mb-6">
             Join thousands of satisfied users who have elevated their writing
             with AI Writing Assistant.

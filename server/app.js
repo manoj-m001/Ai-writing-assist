@@ -9,7 +9,7 @@ const app = express();
 const port = 5000 || process.env.PORT;
 
 app.use(cors({
-  origin: 'https://brilliant-bunny-d140c2.netlify.app', 
+  origin: 'http://localhost:5173', 
   methods: ['GET', 'POST'],
   credentials: true
 }));

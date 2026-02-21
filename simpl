@@ -1,0 +1,225 @@
+/* Group 12 */
+.b2b_home_lead_form_bg {
+position: absolute;
+width: 1278px;
+height: 224px;
+left: 100px;
+top: 1273px;
+
+background: url(b2b_home_lead_form_bg.png);
+border-radius: 8px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+/* Go behind the curtain with real examples and high-scale insights */
+
+position: absolute;
+width: 687px;
+height: 108px;
+left: calc(50% - 687px/2 - 266.5px);
+top: 3701px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 54px;
+
+color: #F5AB40;
+/* You’ll walk away with: */
+
+position: absolute;
+width: 242px;
+height: 34px;
+left: 104px;
+top: 3851px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 34px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 3px;
+height: 59px;
+left: 107px;
+top: 3924px;
+
+background: #F5AB40;
+/* Group 6 */
+
+position: absolute;
+width: 321px;
+height: 41px;
+left: 102px;
+top: 511px;
+/* Group 6 */
+
+position: absolute;
+width: 321px;
+height: 41px;
+left: 102px;
+top: 511px;
+/* new_logo 2 */
+
+position: absolute;
+width: 280px;
+height: 86px;
+left: 93px;
+top: 54px;
+
+ 
+
+/* An Executive Roundtable · Lunch */
+
+position: absolute;
+width: 324px;
+height: 28px;
+left: 288px;
+top: 220px;
+
+font-family: 'Satoshi Variable';
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+/* The Skills That Matter Next:  Preparing Your Workforce  & Leaders for the AI Era */
+
+position: absolute;
+width: 771px;
+height: 186px;
+left: 102px;
+top: 281px;
+/* AI is accelerating change across every operational layer. Roles are shifting. Leadership models are collapsing and reforming. Frontline and mid-level managers will soon lead teams of people and intelligent agents.   But even the most advanced enterprises are asking the same question: */
+
+position: absolute;
+width: 1240px;
+height: 226px;
+left: 100px;
+top: 878px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 39px;
+/* or 144% */
+
+color: #000000;
+
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 62px;
+
+color: #F5AB40;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+color: #00FFFF;
+
+
+/* AI is accelerating change across every operational layer. Roles are shifting. Leadership models are collapsing and reforming. Frontline and mid-level managers will soon lead teams of people and intelligent agents.   But even the most advanced enterprises are asking the same question: */
+
+position: absolute;
+width: 1240px;
+height: 226px;
+left: 100px;
+top: 878px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 39px;
+/* or 144% */
+
+color: #000000;
+
+/* This invite-only roundtable gathers CHROs, CLOs, and enterprise workforce leaders for a candid, senior-level discussion on what’s coming next. */
+
+position: absolute;
+width: 1241px;
+height: 78px;
+left: 99px;
+top: 1275px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 39px;
+/* or 144% */
+
+color: #000000;
+/* Which capabilities will matter most, and how do we build them at scale? */
+
+position: absolute;
+width: 703px;
+height: 108px;
+left: calc(50% - 703px/2 + 0.5px);
+top: 1106px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 54px;
+text-align: center;
+
+color: #000000;
+
+/* AI is accelerating change across every operational layer. Roles are shifting. Leadership models are collapsing and reforming. Frontline and mid-level managers will soon lead teams of people and intelligent agents.   But even the most advanced enterprises are asking the same question: */
+
+position: absolute;
+width: 1240px;
+height: 226px;
+left: 100px;
+top: 878px;
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 39px;
+/* or 144% */
+
+color: #000000;
+
+
+/* Card 5 */
+
+position: absolute;
+width: 390px;
+height: 203px;
+left: 104px;
+top: 1598px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+/* Rob Lauber is a global workforce and capability-building leader with over 25 years of experience helping organizations prepare leaders and frontline teams for change. Most recently, he served as SVP and Chief Learning Officer at McDonald’s, leading learning and development across 37,000+ restaurants worldwide. His perspective is especially relevant as organizations rethink leadership and capability models in the age of AI. */
+
+position: absolute;
+width: 821px;
+height: 261px;
+left: 498px;
+top: 185px;
+style={{
+  fontStyle: "normal",
+  fontWeight: "500px",
+  fontSize: "24px",
+  lineHeight: "35px",
+  color: "#FFFFFF",
+}}
+color: "#FFFFFF";

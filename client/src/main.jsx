@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import img from "./images/ai.png";
 import "./index.css";
-
+import "./components/SplitText.jsx";
 import { PrivyProvider } from "@privy-io/react-auth";
 
 import App from "./App";
