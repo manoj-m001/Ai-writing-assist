@@ -2,7 +2,8 @@ import React from "react";
 import { Link ,useNavigate } from "react-router-dom";
 import { usePrivy } from "@privy-io/react-auth";
 import { FaPencilAlt } from "react-icons/fa";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   const { ready, authenticated, login, logout } = usePrivy();
@@ -57,6 +58,13 @@ const Navbar = () => {
               Login
             </button>
           )}
+          <Link
+            to="https://github.com/manoj-m001/"
+            target="_blank"
+            className="text-white text-xl hover:text-blue-200 transition duration-300 ml-4"
+          >{"  "}
+            <FontAwesomeIcon icon={faGithub} size="2xl"/>
+          </Link>
         </div>
       </div>
     </nav>
