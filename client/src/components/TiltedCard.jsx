@@ -4,7 +4,7 @@ import './TiltedCard.css';
 
 const springValues = {
   damping: 30,
-  stiffness: 100,
+  stiffness: 101,
   mass: 2
 };
 
