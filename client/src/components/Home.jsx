@@ -1,9 +1,8 @@
-import React from "react";
 import { FaPencilAlt, FaSpellCheck, FaSyncAlt } from "react-icons/fa";
 import ai from "../images/ai.png";
 import { Link } from "react-router-dom";
 import { usePrivy } from "@privy-io/react-auth";
-import SplitText from "./SplitText.jsx";
+import TiltedCard from "./TiltedCard.jsx";
 const Home = () => {
   const { login, ready, authenticated } = usePrivy();
 
@@ -16,23 +15,13 @@ const Home = () => {
         <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20 px-6">
           <div className="container mx-auto flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-12 md:mb-0">
-              
-              <SplitText
-                text="Elevate Your Writing with AI Writing Assistant"
-                className="text-6xl font-semibold text-center"
-                delay={100}
-                duration={0.6}
-                ease="power3.out"
-                splitType="chars"
-                from={{ opacity: 0, y: 40 }}
-                to={{ opacity: 1, y: 0 }}
-                threshold={0.1}
-                rootMargin="-100px"
-                textAlign="left"
-                onLetterAnimationComplete={handleAnimationComplete}
-              />
-              <p className="text-xl mb-9">
-                
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                Elevate Your Writing with AI
+              </h2>
+              <p className="text-xl mb-8">
+                Unleash the power of artificial intelligence to perfect your
+                grammar, eliminate spelling errors, and transform your writing
+                style.
               </p>
               {authenticated ? (
                 <Link
@@ -50,12 +39,26 @@ const Home = () => {
                 </button>
               )}
             </div>
-            <div className="md:w-1/2">
-              <img
-                style={{ width: "70%", height: "auto" }}
-                src={ai}
-                alt="AI Writing"
-                className="rounded-lg shadow-2xl"
+
+            <div className="md:w-1/2 flex justify-center">
+              <TiltedCard
+                imageSrc={ai}
+                captionText="AI Writing Assistant"
+                containerHeight="300px"
+                containerWidth="300px"
+                imageHeight="400px"
+                imageWidth="400px"
+                rotateAmplitude={12}
+                scaleOnHover={1.05}
+                showMobileWarning={false}
+                showTooltip
+                displayOverlayContent
+                overlayContent={
+                  <img
+                    style={{ width: "100%", height: "auto" }}
+                    className="rounded-lg shadow-2xl"
+                  />
+                }
               />
             </div>
           </div>
