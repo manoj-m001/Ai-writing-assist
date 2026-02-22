@@ -9,7 +9,7 @@ const SplitText = ({
   text,
   className = "",
   delay = 101,
-  duration = 0.6,
+  duration = 0.7,
   ease = "power3.out",
   splitType = "chars",
   from = { opacity: 0, y: 40 },
