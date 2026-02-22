@@ -6,7 +6,17 @@ import About from "./components/About";
 import Editor from "./components/Editor";
 import Navbar from "./components/Navbar";
 import LoginPage from "./components/Login";
-
+/**
+ * App component - Main application router and layout component
+ * 
+ * Renders the main navigation bar and sets up all application routes.
+ * 
+ * @component
+ * @returns {JSX.Element} The main app component with routing configuration
+ * 
+ * @example
+ * return <App />
+ */
 const App = () => {
   return (
     <Router>
