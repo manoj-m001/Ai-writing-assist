@@ -13,7 +13,7 @@ root.render(
     <PrivyProvider
       appId="cmc96amf300d2jo0l80q9tpmm"
       config={{
-        loginMethods: ["email"],
+        loginMethods: ["email", "wallet", "google", "sms"],
         appearance: {
           theme: "light",
           accentColor: "#676FFF",
