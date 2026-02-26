@@ -5,18 +5,15 @@ import "./index.css";
 import "./components/SplitText.jsx";
 import { PrivyProvider } from "@privy-io/react-auth";
 import App from "./App";
-import SplashCursor from './components/SplashCursor'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-<SplashCursor />
-
     <PrivyProvider
       appId="cmc96amf300d2jo0l80q9tpmm"
       config={{
-        loginMethods: ["email", "wallet", "google", "sms"],
+        loginMethods: ["email","google"],
         appearance: {
           theme: "light",
           accentColor: "#676FFF",
